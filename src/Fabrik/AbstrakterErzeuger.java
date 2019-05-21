@@ -7,7 +7,7 @@ public abstract class AbstrakterErzeuger {
 	}
 	
 	public void operation() {
-		
+		"do nothing"
 	}
 	
 	public abstract AbstraktesProdukt erzeugeSchuh();
