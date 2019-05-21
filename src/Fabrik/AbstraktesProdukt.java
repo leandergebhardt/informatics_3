@@ -2,7 +2,7 @@ package Fabrik;
 
 public abstract class AbstraktesProdukt {
 	
-	public AbstraktesProdukt(int pupse) {
+	public AbstraktesProdukt() {
 		
 	}
 	
