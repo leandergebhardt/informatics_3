@@ -2,6 +2,8 @@ package Fabrik;
 
 public class EnkiSportschuhe extends Schuh {
 
+	
+	
 	public EnkiSportschuhe() {
 		// TODO Auto-generated constructor stub
 	}
@@ -20,6 +22,12 @@ public class EnkiSportschuhe extends Schuh {
 
 	@Override
 	public String getFarbe() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getMarke() {
 		// TODO Auto-generated method stub
 		return null;
 	}
