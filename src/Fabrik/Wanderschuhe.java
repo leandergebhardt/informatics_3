@@ -1,25 +1,24 @@
 package Fabrik;
 
-public class DidadasStiefel extends Schuh {
+public class Wanderschuhe extends Schuh {
 
-	private int hoehe;
 	private int groeße;
 	private int preis;
+	private String besohlung;
 	private String farbe;
 	private String marke;
 	
 	/**
-	 * @param hoehe
 	 * @param groeße
 	 * @param preis
+	 * @param besohlung
 	 * @param farbe
-	 * @param marke
 	 */
-	public DidadasStiefel(int hoehe, int groeße, int preis, String farbe, String marke) {
+	public Wanderschuhe(int groeße, int preis, String besohlung, String farbe, String marke) {
 		super();
-		this.hoehe = hoehe;
 		this.groeße = groeße;
 		this.preis = preis;
+		this.besohlung = besohlung;
 		this.farbe = farbe;
 		this.marke = marke;
 	}
@@ -40,10 +39,10 @@ public class DidadasStiefel extends Schuh {
 	}
 
 	/**
-	 * @return the hoehe
+	 * @return the besohlung
 	 */
-	public int getHoehe() {
-		return hoehe;
+	public String getBesohlung() {
+		return besohlung;
 	}
 
 	@Override

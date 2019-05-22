@@ -1,12 +1,10 @@
 package Fabrik;
 
-public class DidadasSportschuhe extends Schuh {
+public class Sportschuhe extends Schuh {
 	
-	private int groeße;
-	private int preis;
+
 	private String sportart;
-	private String marke;
-	private String farbe;
+
 
 	/**
 	 * @param groeße
@@ -15,8 +13,9 @@ public class DidadasSportschuhe extends Schuh {
 	 * @param marke
 	 * @param farbe
 	 */
-	public DidadasSportschuhe(int groeße, int preis, String sportart, String marke, String farbe) {
+	public Sportschuhe(int groeße, int preis, String sportart, String marke, String farbe) {
 		super();
+		
 		this.groeße = groeße;
 		this.preis = preis;
 		this.sportart = sportart;
@@ -50,5 +49,6 @@ public class DidadasSportschuhe extends Schuh {
 	public String getMarke() {
 		return marke;
 	}
+
 
 }

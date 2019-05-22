@@ -7,9 +7,8 @@ public abstract class SchuhHersteller {
 	}
 	
 	public void operation() {
-		"do nothing"
 	}
 	
-	public abstract Schuh erzeugeSchuh();
+	public abstract Schuh erzeugeSchuhe(int Type);
 
 }
