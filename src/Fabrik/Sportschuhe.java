@@ -2,9 +2,7 @@ package Fabrik;
 
 public class Sportschuhe extends Schuh {
 	
-
 	private String sportart;
-
 
 	/**
 	 * @param groeße

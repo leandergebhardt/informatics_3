@@ -3,10 +3,6 @@ package Fabrik;
 public class Stiefel extends Schuh {
 
 	private int hoehe;
-	private int groeße;
-	private int preis;
-	private String farbe;
-	private String marke;
 	
 	/**
 	 * @param hoehe

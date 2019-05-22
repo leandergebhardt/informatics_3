@@ -2,11 +2,7 @@ package Fabrik;
 
 public class Wanderschuhe extends Schuh {
 
-	private int groeße;
-	private int preis;
 	private String besohlung;
-	private String farbe;
-	private String marke;
 	
 	/**
 	 * @param groeße
