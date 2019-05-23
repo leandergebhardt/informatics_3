@@ -15,14 +15,22 @@ public class Main {
 		
 		SchuhHersteller hersteller = new Enki();
 		Schuh meinSchuh = hersteller.erzeugeSchuhe(1);
+
+		SchuhHersteller hersteller2 = new Didadas();
+		Schuh zweitSchuh = hersteller2.erzeugeSchuhe(2);
 		
 		// console output to check whats going on
-		System.out.println(" Schuhgröße: " + meinSchuh.getGroeße() 
-										   + ", Preis: " + meinSchuh.getPreis() 
-										   + "€, Farbe: " + meinSchuh.getFarbe() 
-										   + ", Marke: " + meinSchuh.getMarke() 
-										   + ", ClassType: " + meinSchuh.getClass());
+		System.out.println(printShoe(meinSchuh));
+		System.out.println(printShoe(zweitSchuh));
 
+	}
+
+	private static String printShoe(Schuh schoe){
+		return  (" Schuhgröße: " + schoe.getGroeße()
+				+ ", Preis: " + schoe.getPreis()
+				+ "€, Farbe: " + schoe.getFarbe()
+				+ ", Marke: " + schoe.getMarke()
+				+ ", ClassType: " + schoe.getClass());
 	}
 
 }
